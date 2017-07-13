@@ -48,14 +48,14 @@ class Login extends CI_Controller {
 				
 				if($session['tipo']  == 1){
 					redirect('Administrador');
-				}else if($data['tipo'] == 2){
+				}else if($session['tipo'] == 2){
 					redirect('Usuarios');
-				}else if($data['tipo'] == 3){
+				}else if($session['tipo'] == 3){
 					redirect('Usuarios');
-				}else if($data['tipo'] == 4){
-					redirect('Usuarios');
+				}else if($session['tipo'] == 4){
+					redirect('Professor');
 				}else if($session['tipo'] == 5){
-					redirect('Usuarios');
+					redirect('Aluno');
 				};	
 			};
 		} else {
