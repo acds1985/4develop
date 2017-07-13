@@ -46,15 +46,15 @@ class Login extends CI_Controller {
 
 				$this->session->set_userdata($session);
 				
-				if($session['tipo']  == 1){
+				if($session['tipo']  == 5){
 					redirect('Administrador');
-				}else if($data['tipo'] == 2){
+				}else if($data['tipo'] == 4){
 					redirect('Usuarios');
 				}else if($data['tipo'] == 3){
 					redirect('Usuarios');
-				}else if($data['tipo'] == 4){
+				}else if($data['tipo'] == 2){
 					redirect('Usuarios');
-				}else if($data['tipo'] == 5){
+				}else if($data['tipo'] == 1){
 					redirect('Usuarios');
 				};	
 			};
