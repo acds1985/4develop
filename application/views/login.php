@@ -55,11 +55,11 @@
       <div class="form-group">
        <label for="" class="col-sm-1 control-label">Tipo:</label>
          <select class="form-control" name="tipo">
-          <option value="1">Aluno</option>
-          <option value="2">Professor</option>
+          <option value="5">Aluno</option>
+          <option value="4">Professor</option>
           <option value="3">Coordenador</option>
-          <option value="4">Técnico-Administrativo</option>
-          <option value="5">Comissão de Avaliadores</option>
+          <option value="2">Técnico-Administrativo</option>
+          <option value="1">Comissão de Avaliadores</option>
         </select>
       </div>
     <button type="submit" class="btn btn-primary">Acessar</button>
